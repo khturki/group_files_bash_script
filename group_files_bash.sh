@@ -9,7 +9,7 @@
     directory=$(echo $file_name | cut -d- -f 1)
 #Creating the directory by mkdir command:
     mkdir -p $directory
-#Moving the files to the sub-folder with the same name of the language:
+#Moving the files to the sub-folder with the same name of the files:
     mv "$file_name" "$directory"
   done
 
