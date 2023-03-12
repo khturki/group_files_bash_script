@@ -1,5 +1,5 @@
 # group_files_bash_script
-Bash/shell script to group files into sub-folders, each sub-folder named with its common language name.
+Bash/shell script to group files into sub-folders, each sub-folder named with its common files name.
 
 _________________________________________________________________________________________________________________
 
