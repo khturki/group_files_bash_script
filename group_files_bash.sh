@@ -5,7 +5,7 @@
 #For loop to get all the files names in the current directory, by find the name with .txt extension:
  for file_name in $(find -name \*.txt)
   do
-#Assign the name of the file by using cut command into the directory variable:
+#Assign the name of the file by using cut command from the beginning of the file name to the first "-" into the directory variable:
     directory=$(echo $file_name | cut -d- -f 1)
 #Creating the directory by mkdir command:
     mkdir -p $directory
